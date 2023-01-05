@@ -9,6 +9,10 @@
     width: 100%;
 }
 
+.lol{
+    background-color: aqua;
+}
+
 body{
     height: 100vh;
     width: 100vw;
@@ -29,5 +33,11 @@ body{
 @media (max-width: 768px){
     .masthead{
         min-height: 50vh;
+    }
+}
+
+@media (max-width: 992px){
+    .test{
+        text-align: center;
     }
 }
