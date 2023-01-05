@@ -13,6 +13,10 @@
     background-color: rgba(0, 0, 0, 0.2);
 }
 
+.logo{
+    background-color: transparent;
+}
+
 @media (max-width: 768px){
     .masthead{
         min-height: 42vh;
