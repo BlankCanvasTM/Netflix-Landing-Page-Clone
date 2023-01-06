@@ -37,8 +37,12 @@ body{
     color: #e8e8e8;
 }
 
+
+
 .accordion-item{
     border: none;
+    background: rgb(0, 0, 0);
+    color: #e8e8e8;
 }
 
 .accordion-button:not(.collapsed) {
@@ -51,6 +55,10 @@ body{
     color: inherit;
     background: rgb(47, 47, 47);
     color: #e8e8e8;
+}
+
+.accordion-button:focus{
+    box-shadow: inherit;
 }
 
 @media (max-width: 768px){
